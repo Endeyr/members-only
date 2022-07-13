@@ -1,24 +1,21 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Project
+Members-only project as part of The Odin Project.
 
-Things you may want to cover:
+Difficulties
 
-* Ruby version
+Solutions
 
-* System dependencies
+Notable Features
 
-* Configuration
+Technologies Used
+Ruby on Rails
+Tailwind
+PostgreSQL
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Notable Gems Used
+pg
+devise
+guard
+simple_form
