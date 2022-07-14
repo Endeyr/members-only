@@ -1,7 +1,21 @@
-<div class="mx-auto md:w-2/3 w-full">
-  <h1 class="font-bold text-4xl">New post</h1>
-
-  <%= render "form", post: @post %>
-
-  <%= link_to 'Back to posts', posts_path, class: "ml-2 rounded-lg py-3 px-5 bg-gray-100 inline-block font-medium" %>
+<div class="section">
+	<div class="container">
+		<div class="columns is-centered">
+			<div class="column is-half">
+				<h1 class="title">Create a new Post</h1>
+					<%= render 'form', post: @post %>
+			</div>
+		</div>
+	</div>
 </div>
+
+<nav class="navbar is-fixed-bottom">
+	<div class="navbar-menu">
+		<div class="navbar-item">
+			<div class="field is-grouped">
+				<p class="control">
+					<%= link_to 'Cancel', posts_path, class: "button is-dark" %>
+				</p>
+		</div>
+	</div>
+</nav>

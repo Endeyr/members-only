@@ -51,11 +51,13 @@ gem "sassc-rails"
 # Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]
 # gem "image_processing", "~> 1.2"
 
+gem 'bulma-rails', '~> 0.9.3'
 gem 'simple_form', '~> 5.1'
 gem 'guard', '~> 2.18'
 gem 'guard-rspec', '~> 4.7', '>= 4.7.3'
 gem 'devise', '~> 4.8', '>= 4.8.1'
-gem 'webpacker', '~> 5.4', '>= 5.4.3'
+gem 'gravatar_image_tag', '~> 1.2'
+gem 'coffee-rails', '~> 5.0'
 
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
