@@ -9,11 +9,6 @@ Solutions
 
 Notable Features
 
-Technologies Used
-Ruby on Rails
-Tailwind
-PostgreSQL
-
 Notable Gems Used
 pg
 devise
