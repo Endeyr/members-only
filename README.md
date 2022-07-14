@@ -4,8 +4,7 @@ Project
 Members-only project as part of The Odin Project.
 
 Difficulties
-
-Solutions
+Trouble with Devise and Turbolinks but solved with the help from this link https://betterprogramming.pub/devise-auth-setup-in-rails-7-44240aaed4be
 
 Notable Features
 
